@@ -4,7 +4,7 @@ import { Typewriter } from 'react-simple-typewriter';
 import { FaGithub, FaEnvelope, FaLinkedin } from 'react-icons/fa';
 import { PERSONAL_INFO } from '../utils/constants';
 import Button from '../components/Button';
-import profileImg from '../assets/images/profile.png';
+import profileImg from '../assets/images/profile.jpg';
 
 const Hero = () => {
   return (
@@ -78,7 +78,7 @@ const Hero = () => {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="flex-1 relative w-full flex justify-center md:justify-end"
         >
-          <div className="relative z-10 w-80 md:w-96 lg:w-[500px] xl:w-[475px] drop-shadow-2xl">
+          <div className="relative z-10 w-80 md:w-96 lg:w-[500px] xl:w-[550px] drop-shadow-2xl translate-x-[95px] translate-y-[5px]">
             <img 
               src={profileImg} 
               alt={PERSONAL_INFO.name} 
