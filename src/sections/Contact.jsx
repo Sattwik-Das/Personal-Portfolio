@@ -7,7 +7,7 @@ import Button from '../components/Button';
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-20 relative overflow-hidden">
+    <section id="contact" className="py-20 relative z-10 bg-darker overflow-hidden">
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-accent-red opacity-5 rounded-full blur-[100px]"></div>
       
       <div className="container mx-auto px-6 md:px-12 relative z-10 text-center">

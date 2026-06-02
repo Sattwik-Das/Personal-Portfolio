@@ -8,7 +8,7 @@ import profileImg from '../assets/images/profile.jpg';
 
 const Hero = () => {
   return (
-    <section id="home" className="min-h-screen flex items-center pt-20 pb-10">
+    <section id="home" className="min-h-screen flex items-center pt-20 pb-10 sticky top-0 z-0 bg-darker">
       <div className="container mx-auto px-6 md:px-12 flex flex-col-reverse md:flex-row items-center justify-between gap-12">
         {/* Text Content */}
         <div className="flex-1 text-center md:text-left z-10">

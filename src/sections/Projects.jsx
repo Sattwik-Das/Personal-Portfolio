@@ -5,7 +5,7 @@ import ProjectCard from '../components/ProjectCard';
 
 const Projects = () => {
   return (
-    <section id="projects" className="py-20 relative">
+    <section id="projects" className="py-20 relative z-10 bg-darker">
       <div className="container mx-auto px-6 md:px-12">
         <SectionTitle title="Featured Projects" subtitle="A selection of my recent work." />
         

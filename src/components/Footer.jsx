@@ -4,7 +4,7 @@ import { PERSONAL_INFO } from '../utils/constants';
 
 const Footer = () => {
   return (
-    <footer className="bg-darker py-8 border-t border-slate-800 mt-20">
+    <footer className="bg-darker relative z-10 py-8 border-t border-slate-800 mt-20">
       <div className="container mx-auto px-6 md:px-12 flex flex-col md:flex-row justify-between items-center">
         <p className="text-slate-400 text-sm mb-4 md:mb-0">
           © {new Date().getFullYear()} {PERSONAL_INFO.name}. All rights reserved.

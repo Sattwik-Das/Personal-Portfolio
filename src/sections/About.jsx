@@ -5,7 +5,7 @@ import SectionTitle from '../components/SectionTitle';
 
 const About = () => {
   return (
-    <section id="about" className="py-20">
+    <section id="about" className="py-20 relative z-10 bg-darker">
       <div className="container mx-auto px-6 md:px-12">
         <SectionTitle title="About Me" />
         

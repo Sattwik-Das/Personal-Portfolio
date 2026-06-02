@@ -30,7 +30,7 @@ const Navbar = () => {
       }`}
     >
       <div className="container mx-auto px-6 md:px-12 flex justify-between items-center">
-        <a href="#" className="text-2xl font-bold tracking-tighter">
+        <a href="#" className="text-3xl md:text-4xl font-bold tracking-tighter">
           {PERSONAL_INFO.name.split(' ')[0]}
           <span className="text-accent">.</span>
         </a>

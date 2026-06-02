@@ -6,7 +6,7 @@ import SectionTitle from '../components/SectionTitle';
 
 const Achievements = () => {
   return (
-    <section id="achievements" className="py-20 bg-darker">
+    <section id="achievements" className="py-20 relative z-10 bg-darker">
       <div className="container mx-auto px-6 md:px-12">
         <SectionTitle title="Achievements" subtitle="Milestones and recognitions I've received." />
         
