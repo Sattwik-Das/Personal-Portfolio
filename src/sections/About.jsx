@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { PERSONAL_INFO } from '../utils/constants';
 import SectionTitle from '../components/SectionTitle';
+import profileImg from '../assets/images/profile-suit.jpeg';
 
 const About = () => {
   return (
@@ -31,23 +32,14 @@ const About = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.2 }}
-            className="flex-1 w-full grid grid-cols-2 gap-4"
+            className="flex-1 w-full flex justify-center md:justify-end"
           >
-            <div className="bg-dark p-6 rounded-2xl border border-slate-800 text-center">
-              <h4 className="text-4xl font-bold text-accent mb-2">2+</h4>
-              <p className="text-slate-400 text-sm">Years Coding</p>
-            </div>
-            <div className="bg-dark p-6 rounded-2xl border border-slate-800 text-center">
-              <h4 className="text-4xl font-bold text-accent mb-2">10+</h4>
-              <p className="text-slate-400 text-sm">Projects</p>
-            </div>
-            <div className="bg-dark p-6 rounded-2xl border border-slate-800 text-center">
-              <h4 className="text-4xl font-bold text-accent mb-2">3</h4>
-              <p className="text-slate-400 text-sm">Hackathons</p>
-            </div>
-            <div className="bg-dark p-6 rounded-2xl border border-slate-800 text-center">
-              <h4 className="text-4xl font-bold text-accent mb-2">100%</h4>
-              <p className="text-slate-400 text-sm">Dedication</p>
+            <div className="relative w-72 md:w-80 lg:w-96 rounded-2xl overflow-hidden border-2 border-slate-800 shadow-2xl hover:border-accent transition-colors duration-300">
+              <img 
+                src={profileImg} 
+                alt="About Me" 
+                className="w-full h-auto object-cover"
+              />
             </div>
           </motion.div>
         </div>
