@@ -14,9 +14,17 @@ const ProjectCard = ({ project, index }) => {
       className="bg-dark border border-slate-800 rounded-2xl overflow-hidden group hover:border-accent-cyan/50 transition-colors"
     >
       <div className="h-48 bg-slate-900 flex items-center justify-center border-b border-slate-800 relative overflow-hidden">
-        {/* Placeholder for project image */}
-        <div className="absolute inset-0 bg-accent opacity-10 group-hover:opacity-20 transition-opacity" />
-        <span className="text-slate-500 font-medium">Coming Soon</span>
+        {project.svg ? (
+          <div 
+            className="w-full h-full" 
+            dangerouslySetInnerHTML={{ __html: project.svg }} 
+          />
+        ) : (
+          <>
+            <div className="absolute inset-0 bg-accent opacity-10 group-hover:opacity-20 transition-opacity" />
+            <span className="text-slate-500 font-medium">Coming Soon</span>
+          </>
+        )}
       </div>
       
       <div className="p-6">
