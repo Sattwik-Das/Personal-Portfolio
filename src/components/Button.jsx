@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const Button = ({ children, variant = 'primary', href, onClick, className = '' }) => {
   const baseStyles = "px-6 py-3 rounded-full font-medium transition-all duration-300 flex items-center justify-center gap-2";
-  
+
   const variants = {
     primary: "bg-accent text-white hover:shadow-lg hover:shadow-accent-red/30",
     outline: "border border-accent-red text-accent-red hover:bg-accent-red/10",

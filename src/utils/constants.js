@@ -4,8 +4,21 @@ export const PERSONAL_INFO = {
   tagline: "B.Tech CSE Student",
   university: "Adamas University",
   graduationYear: 2028,
+  educationStart: "2024",
+  degree: "B.Tech, Computer Science",
+  location: "Kolkata",
   email: "sattwik122006@gmail.com",
   github: "https://github.com/Sattwik-Das",
   linkedin: "https://www.linkedin.com/in/sattwik-das-in",
-  aboutText: "I’m a B.Tech Computer Science student and a passionate full-stack developer with a strong interest in building scalable and user-friendly web applications. I enjoy working with technologies like C++, Java, Python, and databases to solve real-world problems. I’ve participated in hackathons and coding competitions, constantly improving my skills. My goal is to grow as a software engineer and create impactful digital solutions."
+  aboutText: "I am a Full Stack Developer and Computer Science student passionate about building scalable applications and solving real-world problems through technology. I focus on creating efficient, user-centric solutions with clean architecture, modern development practices, and a commitment to continuous learning"
 };
+
+export const EDUCATION = [
+  {
+    id: 1,
+    degree: "B.Tech, Computer Science",
+    school: "Adamas University, Kolkata",
+    years: "2024 – 2028",
+    logoId: "adamas",
+  }
+];
